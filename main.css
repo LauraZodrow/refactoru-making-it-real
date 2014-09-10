@@ -1,0 +1,107 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #7f8c8d;
+}
+.container {
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #fff;
+	z-index: 9999;
+}
+
+header {
+	position: relative;
+	height: 250px;
+	background: #2ecc71;
+	border-bottom: #27ae60 solid 7px;
+	color: #fff;
+}
+
+.logo {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	text-indent: 5px;
+}
+
+nav ul {
+	list-style: none;
+	background: #34495e;
+	width: 100%;
+	float: right;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 60px;
+}
+
+nav li {
+	display: inline;
+	margin: 15px;
+	float: right;
+	color: #fff;
+}
+
+aside {
+	background: #fff;
+	position: absolute;
+	padding: 0px 23px;
+	top: 16em;
+	left: 60em;
+	border-bottom: #606060 solid 4px;
+}
+
+.container-alt {
+	width: 550;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h2 {
+	font-size: 20px;
+	text-indent: -11px;
+}
+
+p {
+	font-size: 13px;
+}
+
+.link {
+	color: #FF9900;
+	text-decoration: none;
+}
+
+.js-script {
+	background: #bdc3c7;
+	padding: 10px 20px;
+}
+
+ol{
+	padding-left: 0px;
+}
+ol li {
+	font-size: 13px;
+}
+
+.author-post {
+	font-size: 10px;
+	color: #909090;
+	text-indent: 10px;
+	margin-bottom: 60px;
+}
+
+.btn-submit {
+	background: #c0392b;
+	display: block;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+	font-size: 14px;
+	padding: 2% 0%;
+	text-transform: uppercase;
+	
+}
