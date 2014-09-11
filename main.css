@@ -105,3 +105,12 @@ ol li {
 	text-transform: uppercase;
 	
 }
+
+.comments img {
+	float: left;
+}
+
+.comment-user-alt {
+	margin: 4em;
+	border-left: #000 solid 1px;
+}
