@@ -2,7 +2,7 @@
 	<head>
 		<!-- What character set should the browser use? -->
 		<meta charset="utf-8">
-		<title>My First HTML</title>
+		<title>Making It Real</title>
 		<!-- add in the normalize css file -->
 		<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
 		<link rel="stylesheet" type="text/css" href="main.css">
@@ -36,6 +36,28 @@
 				<hr>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, aliquam, error. Excepturi accusamus, dolores aut, sapiente nulla voluptates laborum odit. Officiis consectetur reprehenderit nostrum provident iure. Et aliquam debitis quibusdam.</p>
 					<!-- WHAT, WHERE, HOW TABLE!!!!!! -->
+					<table>
+						<tr>
+							<td>What</td>
+							<td>Where</td>
+							<td>How</td>
+						</tr>
+						<tr>
+							<td>HTML</td>
+							<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam consequatur itaque voluptate dicta accusamus, ipsa mollitia ad nam pariatur unde tenetur eaque, fuga, blanditiis adipisci autem. Excepturi ipsam sed cum.</td>
+							<td><a href="#" class="button">Go!</a></td>
+						</tr>
+						<tr>
+							<td>CSS</td>
+							<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores fuga id similique saepe necessitatibus ipsum odio laudantium ducimus nemo. Vitae placeat accusantium perferendis tenetur ducimus, magni veritatis modi nam, molestiae.</td>
+							<td><a href="#" class="button">Try!</a></td>
+						</tr>
+						<tr>
+							<td>JS</td>
+							<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, amet eius autem accusamus reiciendis odio! Non odio dolorum nesciunt quam vitae, tempora, iste eveniet dolore assumenda ullam. Repellendus, perspiciatis, culpa.</td>
+							<td><a href="#" class="button">View!</a></td>
+						</tr>
+					</table>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim placeat laboriosam neque dolore animi, molestiae! Repellendus, modi sint. Labore perferendis, quaerat at voluptas praesentium tempora deserunt aliquam laborum consequuntur saepe.</p>
 				<h3>Section Title</h3>
 				<hr>
@@ -59,38 +81,65 @@
 				</div>
 				<div class="comments">
 					<h2>Comments</h2>
-					<h4>USER INFO</h4>
-					<hr>
+					<fieldset>
+						<legend>USER INFO</legend>
+						<div class="form-input">
+							<label>Email: <input type="text" name="email"></label><br>
+							<label>Display Name: <input type="text" name="displayname"></label><br>
+							<label>Website: <input type="text" name="website"></label><br>
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend>COMMENT</legend>
+					<!-- textarea large box -->		
+					<textarea rows="8"></textarea>
+					</fieldset>	
 					<a href="#" class="btn-submit">SUBMIT</a>
 				<!-- INSERT EMAIL WEBSITE BOX HERE!!</-->
 					<div class="comment-user">
 						<img src="http://placehold.it/50x50">
-						<h6>User 1</h6>
-						<date><i>January 13, 2014</i></date>
+						<div class="comment-stream">
+							<h6>User 1</h6>
+							<date><i>January 13, 2014</i></date>
+						</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptatibus doloremque repellendus est sed nobis reprehenderit asperiores, consequatur cum nostrum, voluptas omnis dignissimos, molestiae nam, eveniet quasi repellat id corporis.</p>
 					</div>
 						<div class="comment-user-alt">
 							<div>
 								<img src="http://placehold.it/50x50">
-								<h6>User 1</h6>
-								<date><i>January 13, 2014</i></date>
+								<div class="comment-stream">
+									<h6>User 1</h6>
+									<date><i>January 13, 2014</i></date>
+								</div>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptatibus doloremque repellendus est sed nobis reprehenderit asperiores, consequatur cum nostrum, voluptas omnis dignissimos, molestiae nam, eveniet quasi repellat id corporis.</p>
 							</div>
 							<div>
 								<img src="http://placehold.it/50x50">
-								<h6>User 3</h6>
-								<date><i>January 13, 2014</i></date>
+								<div class="comment-stream">
+									<h6>User 3</h6>
+									<date><i>January 13, 2014</i></date>
+								</div>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptatibus doloremque repellendus est sed nobis reprehenderit asperiores, consequatur cum nostrum, voluptas omnis dignissimos, molestiae nam, eveniet quasi repellat id corporis.</p>
 							</div>
 						</div>
 					<div class="comment-user">
 						<img src="http://placehold.it/50x50">
-						<h6>User 3</h6>
-						<date><i>January 13, 2014</i></date>
+						<div class="comment-stream">
+							<h6>User 3</h6>
+							<date><i>January 13, 2014</i></date>
+						</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptatibus doloremque repellendus est sed nobis reprehenderit asperiores, consequatur cum nostrum, voluptas omnis dignissimos, molestiae nam, eveniet quasi repellat id corporis.</p>
 					</div>
 				</div>
+				<div class="padding-bottom">
+					<p></p>
+				</div>
 		</div>
 		</div>
+
+
+
+
+
 	</body>
 </html>

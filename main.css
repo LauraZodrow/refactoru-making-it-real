@@ -4,12 +4,13 @@
 
 body {
 	background: #7f8c8d;
+	margin-bottom: 40px;
 }
 .container {
 	width: 650px;
 	margin-left: auto;
 	margin-right: auto;
-	background: #fff;
+	background: #ecf0f1;
 	z-index: 9999;
 }
 
@@ -74,6 +75,27 @@ p {
 	text-decoration: none;
 }
 
+table {
+	font-size:13px;
+}
+table td {
+	border: solid 1px #000;
+	text-align: left;
+	padding:8px 11px;
+}
+
+tr:first-child {
+	background: #bdc3c7;
+	font-weight: bold;
+}
+
+.button {
+	padding:5px 30px;
+	color: #fff;
+	background:#3498db;
+	text-decoration: none
+}
+
 .js-script {
 	background: #bdc3c7;
 	padding: 10px 20px;
@@ -93,6 +115,40 @@ ol li {
 	margin-bottom: 60px;
 }
 
+.form-input label {
+	display: inline-block;
+	font-size: 13px;
+	width: 100%;
+	text-align: right;
+}
+
+input {
+	margin: 5px;
+	width: 320px;
+	right: 0;
+}
+
+textarea {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+fieldset {
+	border-left: none;
+	border-bottom: none;
+	border-right: none;
+	border-color: #cccccc;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+legend {
+	font-size: 13px;
+	color: #cccccc;
+	padding: 0px 5px;
+}
+
 .btn-submit {
 	background: #c0392b;
 	display: block;
@@ -108,9 +164,25 @@ ol li {
 
 .comments img {
 	float: left;
+	margin-right: 5px;
 }
 
 .comment-user-alt {
-	margin: 4em;
-	border-left: #000 solid 1px;
+	margin: 3.5em;
+	border-left: #D0D0D0 solid 1px;
+	padding-left: 17px;
+}
+
+.comment-stream h6 {
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+.comment-stream date {
+	color: #cccccc;
+	font-size:13px;
+}
+
+.padding-bottom  {
+	padding-bottom: 50px;
 }
