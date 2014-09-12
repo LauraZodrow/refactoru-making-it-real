@@ -1,10 +1,6 @@
-* {
-	box-sizing: border-box;
-}
-
 body {
 	background: #7f8c8d;
-	margin-bottom: 40px;
+	font-size: 13px;
 }
 .container {
 	width: 650px;
@@ -50,8 +46,8 @@ aside {
 	background: #fff;
 	position: absolute;
 	padding: 0px 23px;
-	top: 16em;
-	left: 60em;
+	top: 300px;
+	left: 1100px;
 	border-bottom: #606060 solid 4px;
 }
 
@@ -66,22 +62,16 @@ h2 {
 	text-indent: -11px;
 }
 
-p {
-	font-size: 13px;
-}
-
 .link {
 	color: #FF9900;
 	text-decoration: none;
 }
 
-table {
-	font-size:13px;
-}
 table td {
 	border: solid 1px #000;
 	text-align: left;
 	padding:8px 11px;
+	font-size: 13px;
 }
 
 tr:first-child {
@@ -103,9 +93,6 @@ tr:first-child {
 
 ol{
 	padding-left: 0px;
-}
-ol li {
-	font-size: 13px;
 }
 
 .author-post {
@@ -144,7 +131,6 @@ fieldset {
 }
 
 legend {
-	font-size: 13px;
 	color: #cccccc;
 	padding: 0px 5px;
 }
